@@ -1,6 +1,8 @@
 spring:
   application:
     name: redis-session
+  session:
+    storage-type: redis
   data:
     redis:
       host: 127.0.0.1
